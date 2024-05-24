@@ -10,7 +10,7 @@ async function bootstrap() {
       .setTitle('Clinic API')
       .setDescription('Clinic REST API')
       .setVersion('1.0')
-      .addTag('HealthCheck', 'endpoint to verify API status')
+      .addTag('HealthCheck', 'Endpoint to check API status')
       .addTag('Patients', 'Endpoints for patients resource')
       .addTag('Insurances', 'Endpoints insurance resources')
       .build();
